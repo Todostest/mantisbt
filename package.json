@@ -1,0 +1,14 @@
+{
+  "name": "MantisBTtest",
+  "version": "1.0.0",
+  "description": "\"Autotest for Mantis BT\"",
+  "main": "index.js",
+  "author": "jackblackpref@gmail.com",
+  "license": "Brewery",
+  "private": true,  
+  "dependencies": {
+    "openssl-self-signed-certificate": "^1.1.6",
+    "testcafe": "^1.7.0",
+    "emailjs-imap-client": "^3.0.7"
+  }
+}
