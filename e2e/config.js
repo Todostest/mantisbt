@@ -19,7 +19,7 @@ export const TEST_ACCOUNT_PASSWORD = ''
 
 export const TEST_ACCOUNT_EMAIL2 = ''
 export const TEST_ACCOUNT_PASSWORD2 = 'testtest12'
-export const TEST_USER_NAME2 = 'justforlulz'
+export const TEST_USER_NAME2 = 'TestUser123'
 /*
 Routes
  */

@@ -30,5 +30,5 @@ test('Sign in for regular user', async t => {
   await login(t, TEST_USER_NAME2, TEST_ACCOUNT_PASSWORD2)
 
   await t
-   .expect(Selector('span.user-info').withText('justforlulz').exists).ok()
+   .expect(Selector('span.user-info').withText('TestUser123').exists).ok()
 })

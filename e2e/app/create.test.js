@@ -25,4 +25,7 @@ test('Create new task', async t => {
   await t
     .navigateTo(APP_URL)
     .expect(Selector('a').withText(testSummary).exists).ok()
+    .debug()
+    .click(Selector('a').withText(testSummary))
+    .expect(Selector('p').withText(testDescription).exists).ok()
 })
