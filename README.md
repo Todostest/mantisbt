@@ -13,14 +13,14 @@ To start, you need to install nodejs and yarn
 
 ### Run tests
 
-Run only `app` functional tests.
+Run `all` functional tests.
 ```shell script
-node ./e2e/testcafe.js -t app
+node ./e2e/testcafe.js -t all
 ```
 
-Run only tests from a specified fixture with name `Displays`.
+Run only tests from a specified fixture with name `Tasks`.
 ```shell script
-node ./e2e/testcafe.js -f Displays
+node ./e2e/testcafe.js -f Tasks
 ```
 
 Run only a specified functional test.
